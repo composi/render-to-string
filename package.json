@@ -1,6 +1,6 @@
 {
-  "name": "render-to-string",
-  "version": "0.5.0",
+  "name": "@composi/render-to-string",
+  "version": "0.5.1",
   "description": "A function for converting a component into an html string for server-side use.",
   "main": "src/index.js",
   "scripts": {
