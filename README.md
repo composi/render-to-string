@@ -12,7 +12,7 @@ npm i -D @composi/renderToString
 This is a CommonJS module for use with Node, so import it like any Node module:
 
 ```javascript
-const renderToString = require('render-to-string')
+const renderToString = require('@composi/render-to-string')
 ```
 
 ## Usage
