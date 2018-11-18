@@ -1,11 +1,11 @@
-# @composi/renderToString
+# @composi/render-to-string
 
 A function to convert a @composi/core functional component into a string of HTML markup for use on the server. Using this instead of the @composi/core `render` function allows you to render components into an html page on the server.
 
 ## Install
 
 ```sh
-npm i -D @composi/renderToString
+npm i -D @composi/render-to-string
 ```
 
 ## Import into Project
