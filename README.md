@@ -17,7 +17,7 @@ const renderToString = require('@composi/render-to-string')
 
 ## Usage
 
-To use `renderToString` you need to things, state and a functional component. You need to capture the result in a variable so that you can concatenate or inject it into the markup for the page the server will generate.
+To use `renderToString` you need two things, state and a functional component. You need to capture the result in a variable so that you can concatenate or inject it into the markup for the page the server will generate.
 
 ```javascript
 // A component to render:
