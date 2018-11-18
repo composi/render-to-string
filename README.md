@@ -1,11 +1,11 @@
-# @composi/renderToString
+# @composi/render-to-string
 
 A function to convert a @composi/core functional component into a string of HTML markup for use on the server. Using this instead of the @composi/core `render` function allows you to render components into an html page on the server.
 
 ## Install
 
 ```sh
-npm i -D @composi/renderToString
+npm i -D @composi/render-to-string
 ```
 
 ## Import into Project
@@ -17,7 +17,7 @@ const renderToString = require('@composi/render-to-string')
 
 ## Usage
 
-To use `renderToString` you need to things, state and a functional component. You need to capture the result in a variable so that you can concatenate or inject it into the markup for the page the server will generate.
+To use `renderToString` you need two things, state and a functional component. You need to capture the result in a variable so that you can concatenate or inject it into the markup for the page the server will generate.
 
 ```javascript
 // A component to render:
